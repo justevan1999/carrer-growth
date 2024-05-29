@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" />
+    <!-- BOXICONS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Carrer Growth</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logos">
+        <img
+          src="./assets/logo white-min (1).png"
+          alt="Company Brand"
+          class="logo_lg"
+          id="topimage"
+          onclick="scrollToTop()"
+        />
+        <img
+          src="./assets/Frame 2 (1)-min.png"
+          alt="Company Brand"
+          class="logo_sm"
+          id="topimage"
+          onclick="scrollToTop()"
+        />
+      </div>
+      <ul>
+        <!-- <li><a href="/">Home</a></li> -->
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#courses">Our Programs</a></li>
+        <!-- <li><a href="#exam">Exam Prep</a></li> -->
+        <li><a href="#contact">Contact Us</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+      <div class="nav_btns">
+        <a href="https://careergrowth.academy/admissions/" target="_blank">
+            <button>Get Started</button>
+        </a>
+        <!-- <button>FAQ</button> -->
+      </div>
+
+      <div class="sm_ul" id="sm_ul">
+        <ul>
+          <!-- <li><a href="/">Home</a></li> -->
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#courses">Our Programs</a></li>
+          <!-- <li><a href="#exam">Exam Prep</a></li> -->
+          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+        <div class="nav_btns">
+          <!-- <button>FAQ</button> -->
+          <a href="https://careergrowth.academy/admissions/" target="_blank">
+            <button>Get Started</button>
+        </a>
+        </div>
+      </div>
+      <i class="bx bx-menu-alt-left" id="menu_toggle"></i>
+    </nav>
+    <!-- hero section -->
+    <section class="hero-image">
+      <!-- hero section -->
+       <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+        <div class="col-sm-12 col-md-12 col-lg-10">
+          <div data-aos="zoom-in"
+              data-aos-duration="1000">
+            <div class="hero-section-text">
+              <h1>Learn <span class="hero-span">Earn & </span> Grow</h1>
+              <p>
+                Explore apprenticeship programs, gain hands-on experience, and build your future
+              </p>
+              <a style="margin-right: 15px;" class="text-decoration-none" href="#courses">
+                <button class="prog">Our Programs</button>
+              </a>
+              <a href="https://careergrowth.academy/admissions/" target="_blank">
+                <button class="hero-btn">Get Started</button>
+              </a>
+            </div>
+          </div>  
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+      </div>
+      <!-- hero section -->
+    </section>
+    <!-- hero section -->
+
+      <!-- sponsors section -->
+        <section class="sponsor">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-1"></div>
+            <div class="col-sm-12 col-md-12 col-lg-10">
+              <div data-aos="zoom-in"
+                  data-aos-duration="1000" >
+                  <h5 class="sponsor-top-text">
+                    Gain experience with top employers on careergrowth
+                  </h5>
+                  <div class="sponsor-house">
+                    <div class="logoss">
+                      <img src="/assets/image 16-min.png" alt="">
+                    </div>
+                    <div class="logoss">
+                      <img src="/assets/image 17-min.png" alt="">
+                    </div>
+                    <div class="logoss">
+                      <img src="/assets/image 18-min.png" alt="">
+                    </div>
+                    <div class="logoss">
+                      <img src="/assets/palmpay-min.png" alt="">
+                    </div>
+                    <div class="logoss">
+                      <img src="/assets/palmpay (1)-min.png" alt="">
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-1"></div>
+          </div>
+        </section>
+     
+      <!-- sponsors section -->
+
+      <!-- video section  -->
+      <section class="video-hero">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-1"></div>
+          <div class="col-sm-12 col-md-12 col-lg-10">
+            <div class="play-button wrldglow">
+              <img class="just-play" src="/assets/Group 2-min.png" alt="" onclick="toggle()">
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-1"></div>
+        </div>
+      </section>  
+      <div class="trailer">
+          <video id="vids" width="100%" controls="true" autoplay>
+            <source src="./assets/cgvideo.mp4" type="video/mp4">
+          </video>
+          <img id="stoppp" class="close-btn" src="./assets/close-min (1).png" alt="" onclick="stopVideo()">
+      </div>
+
+      <!-- video section  -->
+
+      <!-- workers section -->
+      <div data-aos="zoom-in"
+        data-aos-duration="1000">
+        <section>
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-1"></div>
+            <div class="col-sm-12 col-md-12 col-lg-10">
+              <div class="row workers-top">
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                  <img src="/assets/jonas-kakaroto-KIPqvvTOC1s-unsplash-min.jpg" alt="">
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6" style="margin-top: 0;">
+                  <div>
+                    <h1>2.6x More Likely to Land a Job</h1>
+                    <p>
+                      Studies show that apprentices are significantly more likely to secure employment after completing an apprenticeship program.
+                    </p>
+                  </div>
+                  <div>
+                    <h1>Connect with Industry Leaders</h1>
+                    <p> Gain valuable real-world experience through CareerGrowth apprenticeships, working directly with established companies   in your fiel
+                    </p>
+                  </div>
+                  <div>
+                    <h1>Join a Thriving Community</h1>
+                    <p>
+                      Become part of a network of learners who have benefited from apprenticeship programs, fostering connections and support
+                    </p>
+                  </div>
+                  <div>
+                    <a href="https://careergrowth.academy/admissions/" target="_blank">
+                      <button class="plly">
+                        Apply now  <i style="width: 49px; font-weight: 800;" class='bx bx-arrow-back   bx-rotate-180' ></i>
+                      </button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-1"></div>
+          </div>
+        </section>
+        </div>
+      <!-- workers section -->
+
+      <!-- who we are section -->
+      <div data-aos="zoom-in"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-sine">
+          <section>
+            <div class="row who-we-are-top">
+              <div class="col-sm-12 col-md-12 col-lg-1"></div>
+              <div id="about" class="col-sm-12 col-md-12 col-lg-10">
+                <div class="row who-we">
+                  <div class="col-sm-12 col-md-12 col-lg-6">
+                    <h2 class="who-we-are-header">Who <span class="who-span">We</span> Are</h2>
+                    <p>At CareerGrowth, we believe everyone deserves the chance to explore their passions and find a fulfilling career path.</p>
+                    <p>That's why we specialise in connecting individuals like you with apprenticeship programs that unlock doors to new  industries, businesses, and skill sets.
+                    </p>
+                    <p>
+                      Our Vision: We envision a world where traditional education seamlessly blends with hands-on experience. (Explains your vision for career development) Through apprenticeship programs, you can bridge the gap between theoretical knowledge and real-world application, equipping yourself for success in your chosen field
+                    </p>
+                    <!-- <button class="who-btn">Read More</button> -->
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-6">
+                    <img style="margin-left: 70px; margin-top: 60px;" src="/assets/Group 5026-min.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-1"></div>
+            </div>
+          </section>
+        </div>
+      
+      <!-- who we are section -->
+
+      <section class="together main_container">
+        <div data-aos="fade-up"
+          data-aos-duration="1000">
+          <!-- skills section -->
+          <section id="courses" class="skills">
+            <div class="growth-top mt-3">
+                <div class="buttons">
+                  <div><button class="activee" id="btn_diva">Applied Learning <img style="width: 11%;" src="/assets/up right-min.png" alt=""></button></div>
+                  <div><button class="activee" id="btn_divb">Get hired <img style="width: 17%;" src="/assets/up right-min.png" alt=""></button></div>
+                </div>
+            </div>
+          </section>
+          <!-- skills section -->
+            <div class="endss">
+              <div class="diva" id="diva">
+              <!-- before cards -->
+        <center>
+          <div class="row learn">
+            <div class="col-sm-12 col-md-12 col-lg-1"></div>
+            <div class="col-sm-12 col-md-12 col-lg-10">
+                <h1>Unlock Your Potential</h1>
+                <p style="width: 50%;">
+                  Apprenticeship programs for in-demand skills
+                </p>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-1"></div>
+          </div>
+        </center>
+        <!-- before cards -->
+
+        <!-- cards -->
+        <section>
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-1"></div>
+            <div class="col-sm-12 col-md-12 col-lg-10">
+              <div data-aos="fade-up">
+                <div class="cards mt-5">
+                  <div class="card" style="width: 100%;">
+                    <img onclick="tapCard()" src="./assets/data analytics-min.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Data Analytics</h5>
+                      <p style="font-size: 13px;" class="card-text">
+                        Start your data analytics career, build a portfolio, and gain valuable experience for a high-paying career.
+                      </p>
+                      <a href="https://careergrowth.academy/admissions/" target="_blank">
+                        Learn more
+                      </a>
+                    </div>
+                  </div>
+                  <div  class="card" style="width: 100%;">
+                    <img onclick="tapMe()" src="./assets/software-min.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Software</h5>
+                      <p style="font-size: 13px;" class="card-text">
+                        Become a skilled software developer, gain valuable experience, and get hired by top companies
+                      </p>
+                      <a href="https://careergrowth.academy/admissions/" target="_blank">
+                        Learn more
+                      </a>
+                      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                  </div>
+                  <div class="card" style="width: 100%;">
+                    <img onclick="tapAgain()" src="./assets/cybersecurity-min.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cyber Security</h5>
+                      <p style="font-size: 15px;" class="card-text">
+                        Become a skilled cybersecurity analyst, gain valuable experience, and get hired by top companies
+                      </p>
+                      <a href="https://careergrowth.academy/admissions/" target="_blank">
+                        Learn more
+                      </a>
+                      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                  </div>
+                  <div class="card" style="width: 100%;">
+                    <img onclick="tapLast()" src="./assets/product marketing-min.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Product Marketing</h5>
+                      <p style="font-size: 13px;" class="card-text">
+                        Get Hired by Top Brands! Master In-Demand Digital Marketing Skills. Craft Targeted Campaigns That Drive Sales & Engagement.
+                      </p>
+                      <a href="https://careergrowth.academy/admissions/" target="_blank">
+                        Learn more
+                      </a>
+                      <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-1"></div>
+          </div>
+        </section>
+        <!-- cards -->
+
+        <!-- last cards -->
+            <!-- <section>
+              <div class="row">
+                <div class="col-sm-12 col-md-12 col-lg-1"></div>
+                <div class="col-sm-12 col-md-12 col-lg-10">
+                    <div class="last-cards mt-5">
+                      <div class="last-boxes">
+                        <img src="/assets/Frame 63 (1).png" alt="">
+                      </div>
+                      <div class="last-boxes">
+                        <img src="/assets/Frame 60 (1).png" alt="">
+                      </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-1"></div>
+              </div>
+            </section> -->
+        <!-- last cards -->
+              </div>
+              <div class="divb" id="divb">
+               <!-- other side -->
+                <section class="other-side">
+                    <center>
+                      <div class="row learn">
+                        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+                        <div class="col-sm-12 col-md-12 col-lg-10">
+                            <h1>Land Your Dream Job</h1>
+                            <p style="width: 50%;">
+                              Craft a stellar CV, master interview skills, and develop a winning job search strategy - all with CareerGrowth's expert guidance
+                            </p>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+                      </div>
+                    </center>
+                    <!-- before cards -->
+                    <!-- cards -->
+                    <section class="mennn">
+                      <div class="row">
+                        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+                        <div class="col-sm-12 col-md-12 col-lg-10">
+                          <div data-aos="fade-up">
+                              <div class="cards mt-2">
+                              <div class="card" style="width: 40%;">
+                                <img src="./assets/cv writing-min.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Resume & Cover Letter Revamping</h5>
+                                  <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                </div>
+                              </div>
+                              <div class="card" style="width: 40%;">
+                                <img src="./assets/mock interview-min.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Interview Preparation & Coaching</h5>
+                                  <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                </div>
+                              </div>
+                              <div class="card" style="width: 40%;">
+                                <img src="./assets/job search-min.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 class="card-title">Job Search Strategy</h5>
+                                  <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                                  <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                </div>
+                              </div>
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+                      </div>
+                    </section>
+                </section>
+                <!-- other side -->
+              </div>
+            </div>
+        </div>
+      </section>
+
+
+      <!-- success reviews -->
+      <div data-aos="fade-up"
+           data-aos-duration="1000">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-1"></div>
+            <div style="margin-left: 14.2px; margin-top: 4rem;" class="col-sm-12 col-md-12 col-lg-10">
+              <h1 style="font-weight: 700; font-size: 30px;">What People Say</h1>
+              <p>Success Stories of our participants</p>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-1"></div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-1"></div>
+            <div class="col-sm-12 col-md-12 col-lg-10">
+              <div class="row success">
+                <div class="col-sm-4">
+                  <div class="card deen">
+                    <div class="card-body time-taken">
+                      <div class="sides">
+                        <div class="img">
+                          <!-- <img style="width: 100%; padding-top: 10px;" src="./assets/057edbf7-f02b-4024-942f-e2a9e65ae518.jpg" alt=""> -->
+                        </div>
+                        <div class="detials">
+                          <h4>Hakeem</h4>
+                          <p style="font-size: 14px;">Cybersecurity analyst</p>
+                        </div>
+                      </div>
+                        <p class="time-taken">
+                          Before CareerGrowth, cybersecurity felt like a mystery. Their apprenticeship with a leading tech firm gave me hands-on experience with real-world threats. Now, I'm a Security Analyst at the same company, putting my skills to work every day! Thanks, CareerGrowth
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="card deen">
+                    <div class="card-body time-taken">
+                      <div class="sides">
+                        <div class="img">
+                          <!-- <img style="width: 100%; padding-top: 10px;" src="./assets/057edbf7-f02b-4024-942f-e2a9e65ae518.jpg" alt=""> -->
+                        </div>
+                        <div class="detials">
+                          <h4>David</h4>
+                          <p style="font-size: 14px;">Data analyst</p>
+                        </div>
+                      </div>
+                        <p class="time-taken">
+                          I loved statistics, but transitioning to a data analytics career felt daunting. CareerGrowth paired me with a data-driven startup. I learned on the job and honed my analytical skills. Today, I'm a Data Analyst at a major advertising agency, thanks to the experience I gained!
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="card deen">
+                    <div class="card-body time-taken">
+                      <div class="sides">
+                        <div class="img">
+                          <!-- <img style="width: 100%; padding-top: 10px;" src="./assets/057edbf7-f02b-4024-942f-e2a9e65ae518.jpg" alt=""> -->
+                        </div>
+                        <div class="detials">
+                          <h4>Sandrah</h4>
+                          <p style="font-size: 14px;">Product marketer</p>
+                        </div>
+                      </div>
+                        <p class="time-taken">
+                          Marketing theory was interesting, but CareerGrowth knew the power of real-world experience. Their product marketing apprenticeship placed me with a fast-growing software company. I learned campaign strategy and product positioning firsthand. Now, I'm a Product Marketing Manager at a dream company, launching innovative products!
+                        </p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-1"></div>
+          </div>
+      </div>
+      <!-- success reviews -->
+
+
+
+      
+    <!-- questions asked -->
+    <center>
+      <div id="faq" class="row mt-5">
+        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+        <div class="col-sm-12 col-md-12 col-lg-10">
+          <h2 class="ask" style="font-weight: 800; font-size: 48px; color: #2287D2; margin-top: 50px;">Frequently asked questions</h2>
+          <!-- <p class="ask-2" style="width: 56%;">
+            Et pulvinar nec interdum integer id urna molestie porta nullam. A, donec ornare sed turpis pulvinar purus maecenas quam a. Erat porttitor pharetra sed in mauris elementum sollicitudin.
+          </p> -->
+        </div>
+        <div class="col-sm-12 col-md-12 col-lg-1"></div>
+      </div>
+    </center>
+    <!-- questions asked -->
+  
+
+    <!-- drop downs -->
+    <div class="faq">
+      <div class="faq-item">
+        <div class="question" onclick="toggleAnswer(this)">
+          <span>What learning options are available.?</span>
+          <i class="chevron down"></i>
+        </div>
+        <div class="answer">
+          <p>
+            We have both online and onsite learning options available for you to participate in the program. Although our onsite option is only available to those residing in Lagos Nigeria
+          </p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <div class="question" onclick="toggleAnswer(this)">
+          <span>Is it a free program?</span>
+          <i class="chevron down"></i>
+        </div>
+        <div class="answer">
+          <p>The apprenticeship program is not free, we have very flexible payment plans</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="question" onclick="toggleAnswer(this)">
+          <span>How many times in a week are live classes held?</span>
+          <i class="chevron down"></i>
+        </div>
+        <div class="answer">
+          <p>Classes are held three times a week tuesday, saturday and sundays.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <div class="question" onclick="toggleAnswer(this)">
+          <span>Do I get paid during the apprenticeship program?</span>
+          <i class="chevron down"></i>
+        </div>
+        <div class="answer">
+          <p>
+            Payment during the apprenticeship program varies and depends on the company you are assigned to. Some companies pay their apprentices while others don't but overall you build your portfolio and you gain practical job experience.
+          </p>
+        </div>
+      </div>
+      <!-- <div class="faq-item">
+        <div class="question" onclick="toggleAnswer(this)">
+          <span>Best Cars right now?</span>
+          <i class="chevron down"></i>
+        </div>
+        <div class="answer">
+          <p>Rolls Royce...</p>
+        </div>
+      </div> -->
+      <!-- Add more FAQ items as needed -->
+    </div>
+    <!-- drop downs -->
+
+
+    <!-- contact us -->
+
+    <section>
+      <div id="contact" class="row">
+          <div class="col-sm-12 col-md-12 col-lg-1"></div>
+          <div id="mesure" style="margin-top: 5rem;" class="col-sm-12 col-md-12 col-lg-10">
+              <div class="row amet mt-5">
+                <div id="amet" class="col-sm-12 col-md-12 col-lg-6">
+                  <h2>Reach Out To Us</h2>
+                  <p><img class="mr-1" src="./assets/Vector (2)-min.png" alt="">(+234) 912 870 0116</p>
+                  <p><img class="mr-1" src="./assets/Vector (2)-min.png" alt="">(+234) 912 870 0116</p>
+                  <a href="https://x.com/careergrowth101?s=21" target="_blank">
+                    <p><img  src="./assets/Twitter Outline-min.png" alt=""> CareerGrowth101</p>
+                  </a>
+                  <a href="https://www.instagram.com/career4growth?igsh=MWZuYTV5dGJpaDNiZw%3D%3D&utm_source=qr" target="_blank">
+                    <p><img src="./assets/Instagram Outline (1)-min.png" alt=""> Career4Growth</p>
+                  </a>
+                  <a href="https://www.facebook.com/profile.php?id=100092645311929&mibextid=LQQJ4d" target="_blank">
+                    <p><img src="/assets/Facebook Outline (1)-min.png" alt=""> career growth</p>
+                  </a>
+                  <p><img src="./assets/marker 1-min.png" alt="">10B Hughes Avenue Alagomeji Lagos, Nigeria</p>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-6">
+                  <img class="ctmg" width="100%" src="./assets/Group 16-min.png" alt="">
+                </div>
+              </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-1"></div>
+      </div>
+    </section>
+
+    <!-- contact us -->
+
+
+
+    <!-- footer -->
+      <section class="foot">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-1"></div>
+          <div class="col-sm-12 col-md-12 col-lg-10">
+            <div data-aos="zoom-in"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration= "1000">
+              <div class="footer-sec">
+                <div class="footer-logo">
+                    <img onclick="scrollToTop()" class="logs" src="./assets/logo white-min.png" alt="">
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Enim.</p> -->
+                    <div class="footer-icons">
+                      <div>
+                        <a href="https://www.instagram.com/career4growth?igsh=MWZuYTV5dGJpaDNiZw%3D%3D&utm_source=qr" target="_blank">
+                          <img src="/assets/Group-min.png" alt="">
+                        </a>
+                      </div>
+                      <div>
+                        <a href="https://www.facebook.com/profile.php?id=100092645311929&mibextid=LQQJ4d" target="_blank">
+                          <img src="/assets/Group (1)-min.png" alt="">
+                        </a>
+                      </div>
+                      <div>
+                        <a href="https://x.com/careergrowth101?s=21" target="_blank">
+                          <img src="/assets/Group (2)-min.png" alt="">
+                        </a>
+                      </div>
+                      <!-- <div>
+                        <a href="">
+                          <img src="/assets/Group (3).png" alt="">
+                        </a>
+                      </div> -->
+                    </div>
+                </div>
+                <!-- <div class="top-courses mr-5">
+                    <h5 class="pb-2">Top Courses</h5>
+                    <p>Data Analytics</p>
+                    <p>Software Development</p>
+                    <p>Cyber Security</p>
+                    <p>Devops</p>
+                    <p>Data Science</p>
+                    <p>Product Management</p>
+                </div> -->
+                <div class="company mr-5">
+                    <h5 class="pb-2">Company</h5>
+                    <p>Why CareerGrowth</p>
+                    <!-- <p>Exam Prep</p> -->
+                    <p>FAQs</p>
+                    <p>Testimonials</p>
+                </div>
+                <!-- <div class="policies mr-5">
+                  <h5 class="pb-2">Policies</h5>
+                    <p>Terms and Condition</p>
+                    <p>Refunds Policy</p>
+                    <p>Privacy Policy</p>
+                </div> -->
+                <div class="contact mr-5">
+                  <h5 class="pb-2">Contact</h5>
+                    <p><img src="/assets/Vector-min.png" alt="" class="mr-1"> (+234) 912 870 0116</p>
+                    <p><img src="/assets/Vector-min.png" alt="" class="mr-1"> (+234) 912 870 0116</p>
+                    <a href="https://x.com/careergrowth101?s=21" target="_blank">
+                      <p><img src="/assets/Group (4)-min.png" alt="" class="mr-1">@CareerGrowth101</p>
+                    </a>
+                    <a href="https://www.instagram.com/career4growth?igsh=MWZuYTV5dGJpaDNiZw%3D%3D&utm_source=qr" target="_blank">
+                      <p><img src="/assets/Vector (1)-min.png" alt="" class="mr-1"> Career4Growth</p>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=100092645311929&mibextid=LQQJ4d" target="_blank">
+                      <p><img src="/assets/Facebook Outline-min.png" alt="" class="mr-1"> career growth</p>
+                    </a>
+                    <p><img src="/assets/envelope 2-min.png" alt="" class="mr-1"> support@careergrowthng.com</p>
+                </div>
+              </div>
+                <p class="copy">Copyright 2024 CareerGrowth.</p>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-1"></div>
+        </div>
+      </section>
+    <!-- footer -->
+    <script src="./main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
